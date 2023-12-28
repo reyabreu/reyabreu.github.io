@@ -48,8 +48,10 @@ An interplanetary mission from Kerbin will typically use a three stage architect
 3. Interplanetary travel stage, using a high Vacuum ISP that will allow to reach to and from desired celestial body orbits.
 4. In case of landing on a remote celestial body, an additional lander stage _can_ be added in cooperation with the previous stage.
 
-The lander stage can be designed to have the **Delta-V** requirements for takeoff and landing on the remote celestial body only - using e.g. aerobraking to conserve fuel. 
-Many vessels use he style of e.g. Apollo separate Lander and Orbiter where upon reaching the body's orbit, they are separated. The Orbiter stage remains "parked" at an appropriate circular equatorial orbit and teh lander does the descent. Upon return, Rendezvous and Docking     
+The lander stage can be designed to have the **Delta-V** requirements for takeoff and landing on the remote celestial body only - using e.g. aerobraking to conserve fuel, in addition to landing gear for stability and touchdown dampening. 
+Many vessels use he style of e.g. Apollo separate Lander and Orbiter where upon reaching the body's orbit, they are separated. The Orbiter stage remains "parked" at an appropriate circular equatorial orbit and teh lander does the descent. Upon return, Rendezvous and Docking maneouvres are executed by the Lander as to reunite crew and any other objects/science/sample items. The reassembled craft makes its return to Kerbin.
+
+Some celestial bodies with very small **SOI** and low gravities don't even require a lander stage e.g. Minmus and Gilly. In the case of Gilly, not even landing gear is ncessary, as the vessel can reorint itself for takeoff using strong enough reaction wheels. 
   
 ### Vessel Launch (Gravity Turns)
 As shown by [Delta-V maps][delta-v-map], the estimated amount of Delta-V required by a vessel to reach a stable circular orbit around Kerbin at an altitude of 80km, stands at around 3400m/s (3431.03 m/s is the Escape Velocity).  
@@ -61,7 +63,7 @@ To be able to efficently use the vessel's fuel in reaching orbit, a vessel maneo
 In summary, if a craft is launched following the celestial body rotation (East in the case of Kerbin, following the 90º line in the NavBall), the body provides additional mommentum, a slingshot effect that supplies Delta-V
 to the vessel, thus reducing total fuel consumption. Most booster designs and launch architectures are thought considering a properly executed Gravity Turn in mind - if ignored, there's a risk the vessel may not even reach orbit as most fuel will be consumed reaching the upper atmosphere. 
 
-Obviously, we assume a craft with reasonable pitch/yaw/roll control on its lower stages is used and an acceptable degree of navigational stability. [Kerbal Engineer Redux][ker-mod] mod is recommended, so Orbital Periapsis and
+Obviously, we assume a craft with reasonable pitch/yaw/roll control on its lower stages is used and an acceptable degree of navigational stability. [Kerbal Engineer Redux][ker-mod] mod is recommended (use [CKAN][ckan-site]), so Orbital Periapsis and
 Periapsis can be quickly consulted at a glance.
 
 #### Steps
@@ -85,11 +87,13 @@ The sames steps in a visual form can be seen here:
 ![Kerbin Gravity Turn][kerbin-gravity-turn]
 
 ### Tools
-* Transfer Window Planner
-* 
+* [Launch Window Planner][launch-planner]
+* [Interactive illustrated interplanetary guide and calculator for KSP][transfer-tool] 
 
 [ckan-site]: https://forum.kerbalspaceprogram.com/topic/154922-ckan-the-comprehensive-kerbal-archive-network-v1280-dyson/
 [delta-v-map]: images/ksp1%20delta-v%20map.jpg
 [kerbin-gravity-turn]: images/Untitled%2D2023%2D12%2D27%2D1334.png
 [delta-v-guide]: https://www.reddit.com/r/KerbalAcademy/comments/hagbmv/a_complete_guide_to_deltav/
 [ker-mod]: https://github.com/jrbudda/KerbalEngineer
+[transfer-tool]: https://ksp.olex.biz/
+[launch-planner]: https://alexmoon.github.io/ksp/
