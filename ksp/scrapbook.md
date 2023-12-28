@@ -1,7 +1,7 @@
 # KSP Scrapbook
 ##### Thoughts and notes about Kerbal Space Program
 
-More than jsut a simulation game, KSP is a learning platform for Rocket Science, Orbital Mechanics and other scientific and engineering disciplines associated to flight and space exploration. It works on a simplified scaled down model of around 80% of our own solar system. Concepts sued in KSP are also used in the real world, and more concrete definitions and explanations can be found on aeropsace agencies such as NASA or ESA.  
+More than just a simulation game, KSP is a learning platform for Rocket Science, Orbital Mechanics and other scientific and engineering disciplines associated to flight and space exploration. It works on a simplified scaled down model of around 80% of our own solar system. Concepts in KSP are also used in the real world, and more concrete definitions and explanations can be found on aeropsace agencies such as NASA or ESA.  
 Please note that all this material applies only to the latest versions of KSP. I have not installed/played KSP2 up to this date, so even though I believe most information is applicable, I cannot vouch for it.
 
 ### Mods
@@ -32,6 +32,24 @@ I use exclusively the [CKAN][ckan-site] (Comprehensive Kerbal Archive Network) t
 ```
 * **SOI**(Sphere of Influence): indicates the spherical space around a celestial body in which it has sole gravitational influence on a craft or any other object.
   The dev team chose to simplify effects to a single body at a given point for feasible in-game path calculations instead of n-body influence experienced in the real world. Even despite the exact solvability of all path equations, calculating them in-game gives unexpectedly changing and struggling trajectories.
+
+* **Aerobraking**: Usage of a celestial body's atmosphere to reduce vessel entry speed, either through the use of parachutes or surfaces, by creating drag resistance.
+
+* **Rendezvous**: The design of a close encounter solution between two spearate celestial objects travelling at different orbits.
+
+* **Docking**: The set of manoeuvres required after a rendezvous to enable the attachment of separate vessels through specialized _Docking ports_ as to become a single craft.   
+
+### Vessel Design
+Vessels can be classified according to function. Ship, Probe, Station, Booster, etc. Before designing a craft for a mission, refer to the [Delta-V map][delta-v-map] as to calculate how much Delta-V is required.
+An interplanetary mission from Kerbin will typically use a three stage architecture: 
+
+1. Booster (or launch) stage with high Thrust **ASL** engines. These engines usually have abysmal **ISP**, specially in Vacuum. Aim for providing the ~ 3000m/s required to reach space.
+2. Circularization stage with enough Delta-V to circularize at **LKO**. Consider a strategy to dispose of used stages, either by remote guidance telemetry or retrograde burns to deorbit - as to avoid orbital debris.
+3. Interplanetary travel stage, using a high Vacuum ISP that will allow to reach to and from desired celestial body orbits.
+4. In case of landing on a remote celestial body, an additional lander stage _can_ be added in cooperation with the previous stage.
+
+The lander stage can be designed to have the **Delta-V** requirements for takeoff and landing on the remote celestial body only - using e.g. aerobraking to conserve fuel. 
+Many vessels use he style of e.g. Apollo separate Lander and Orbiter where upon reaching the body's orbit, they are separated. The Orbiter stage remains "parked" at an appropriate circular equatorial orbit and teh lander does the descent. Upon return, Rendezvous and Docking     
   
 ### Vessel Launch (Gravity Turns)
 As shown by [Delta-V maps][delta-v-map], the estimated amount of Delta-V required by a vessel to reach a stable circular orbit around Kerbin at an altitude of 80km, stands at around 3400m/s (3431.03 m/s is the Escape Velocity).  
@@ -43,7 +61,7 @@ To be able to efficently use the vessel's fuel in reaching orbit, a vessel maneo
 In summary, if a craft is launched following the celestial body rotation (East in the case of Kerbin, following the 90º line in the NavBall), the body provides additional mommentum, a slingshot effect that supplies Delta-V
 to the vessel, thus reducing total fuel consumption. Most booster designs and launch architectures are thought considering a properly executed Gravity Turn in mind - if ignored, there's a risk the vessel may not even reach orbit as most fuel will be consumed reaching the upper atmosphere. 
 
-Obviously, we assume a craft with reasonable pitch/yaw/roll control on its lower stages is used and an acceptable degree of navigational stability. Kerbal Engineer Redux mod is recommended, so Orbital Periapsis and
+Obviously, we assume a craft with reasonable pitch/yaw/roll control on its lower stages is used and an acceptable degree of navigational stability. [Kerbal Engineer Redux][ker-mod] mod is recommended, so Orbital Periapsis and
 Periapsis can be quickly consulted at a glance.
 
 #### Steps
@@ -66,8 +84,12 @@ At this point, you have succesfully launched using a gravity turn. There should 
 The sames steps in a visual form can be seen here:
 ![Kerbin Gravity Turn][kerbin-gravity-turn]
 
+### Tools
+* Transfer Window Planner
+* 
+
 [ckan-site]: https://forum.kerbalspaceprogram.com/topic/154922-ckan-the-comprehensive-kerbal-archive-network-v1280-dyson/
 [delta-v-map]: images/ksp1%20delta-v%20map.jpg
 [kerbin-gravity-turn]: images/Untitled%2D2023%2D12%2D27%2D1334.png
 [delta-v-guide]: https://www.reddit.com/r/KerbalAcademy/comments/hagbmv/a_complete_guide_to_deltav/
-
+[ker-mod]: https://github.com/jrbudda/KerbalEngineer
