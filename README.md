@@ -10,9 +10,9 @@ I am also very much into gaming - both Board Gaming and Video Games.
 
 I've enjoyed [Kerbal Space Program][ksp-site] - shorthand **ksp** - since its launch (struggled, would be a better word) more than 10 years ago, but I have played it on and off on a number of occasions with long hiatus in betweeen.
 	
-	* Scrapbook
-	* Screenshots
-	* [Flag][reyabreu-flag]
+ * [Scrapbook](ksp/scrapbook.md)
+ * Screenshots
+ * [Flag][reyabreu-flag]
 
 ## Board Games
 
