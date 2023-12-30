@@ -1,12 +1,8 @@
 ---
 layout: page
-title: "Reynaldo Abreu's Personal Website"
+title: Landing Page
 permalink: landing
 ---
-I'm an Engineer/Software Developer with varied interests. I enjoy discussions around politics, the current state of affairs, science, technology, music, philosophy, and cinema amongst other topics.
-
-I am also very much into gaming - both Board Gaming and Video Games.
-
 ## Video games
 
 * ksp (Kerbal Space Program)
@@ -27,7 +23,7 @@ Directors like Tarantino, Nolan, Peele, Cuarón, Scott, Spielberg - but also "cl
       
 ## Music
 
-Can't deny I'm a Jazz/Rock Fusion enthusiast with a spoft spot for Funk, Soul and groovy beats. [Steely Dan][steely-dan] is the soundtrack I go back to more often than not.   
+Can't deny I'm a Jazz/Rock Fusion enthusiast with a soft spot for Funk, Soul and groovy beats. [Steely Dan][steely-dan] is the soundtrack I go back to more often than not.   
 
 [reyabreu-flag]: ksp/Flags/reyabreu-flag.png
 [ksp-site]: https://www.kerbalspaceprogram.com/

@@ -1,4 +1,8 @@
-# KSP Scrapbook
+---
+layout: page
+title: KSP Scrapbook
+permalink: ksp/scrapbook
+---
 ##### Thoughts and notes about Kerbal Space Program
 
 More than just a simulation game, KSP is a learning platform for Rocket Science, Orbital Mechanics and other scientific and engineering disciplines associated to flight and space exploration. It works on a simplified scaled down model of around 80% of our own solar system. Concepts in KSP are also used in the real world, and more concrete definitions and explanations can be found on aeropsace agencies such as NASA or ESA.  
