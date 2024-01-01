@@ -1,4 +1,8 @@
-# KSP Scrapbook
+---
+layout: page
+title: KSP Scrapbook
+permalink: ksp/scrapbook
+---
 ##### Thoughts and notes about Kerbal Space Program
 
 More than just a simulation game, KSP is a learning platform for Rocket Science, Orbital Mechanics and other scientific and engineering disciplines associated to flight and space exploration. It works on a simplified scaled down model of around 80% of our own solar system. Concepts in KSP are also used in the real world, and more concrete definitions and explanations can be found on aeropsace agencies such as NASA or ESA.  
@@ -91,8 +95,8 @@ The sames steps in a visual form can be seen here:
 * [Interactive illustrated interplanetary guide and calculator for KSP][transfer-tool] 
 
 [ckan-site]: https://forum.kerbalspaceprogram.com/topic/154922-ckan-the-comprehensive-kerbal-archive-network-v1280-dyson/
-[delta-v-map]: images/ksp1%20delta-v%20map.jpg
-[kerbin-gravity-turn]: images/Untitled%2D2023%2D12%2D27%2D1334.png
+[delta-v-map]: images/ksp1-delta-v-map-dark.jpg
+[kerbin-gravity-turn]: images/gravity-turn-graph.png
 [delta-v-guide]: https://www.reddit.com/r/KerbalAcademy/comments/hagbmv/a_complete_guide_to_deltav/
 [ker-mod]: https://github.com/jrbudda/KerbalEngineer
 [transfer-tool]: https://ksp.olex.biz/
