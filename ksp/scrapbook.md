@@ -5,6 +5,8 @@ More than just a simulation game, KSP is a learning platform for Rocket Science,
 
 Please note that all this material applies only to the latest versions of KSP. I have not installed/played KSP2 up to this date, so even though I believe most information is applicable, I cannot vouch for it.
 
+This is the mission [Flag][reyabreu-flag] I use.
+
 #### Mods
 I use exclusively the [CKAN][ckan-site] (Comprehensive Kerbal Archive Network) tool to download and install mods. It will ensure compatibility between mods and with the latest KSP versions. 
 
@@ -21,11 +23,13 @@ I use exclusively the [CKAN][ckan-site] (Comprehensive Kerbal Archive Network) t
 
 * **Escape Velocity**: Space Travel is mostly dependent of speed. This is the velocity at which a vessel will be able to leave a celestial body's atmosphere. In Kerbin it is 3431.03 m/s.
 
-* **Apoapsis**: Farthest/Highest point in an orbit around a celestial body (lowest speed). If raised enough (and if travel direction is the same as rotation for the body), the speed will eventually match the rotational speed becoming stationary to an observer on the body. Higher values will evenatully go beyond the body's SOI. 
+* **Apoapsis (Ap)**: Farthest/Highest point in an orbit around a celestial body (lowest speed). If raised enough (and if travel direction is the same as rotation for the body), the speed will eventually match the rotational speed becoming stationary to an observer on the body. Higher values will eventually go beyond the body's SOI. 
 
-* **Periapsis**: Closest/Lowest point in an orbit around a celestial body (highest speed). If the body has atmosphere, lower values may fall within it, provoking further deaccelartion through aerobraking. The Oberth manoeuvre is optimal at the lowest Periapsis for a given body, as it will provide inordinate amounts of Delta-V.    
+* **Periapsis (Pe)**: Closest/Lowest point in an orbit around a celestial body (highest speed). If the body has atmosphere, lower values may fall within it, provoking further deaccelartion through aerobraking. The Oberth manoeuver is optimal at the lowest Periapsis for a given body, as it will provide inordinate amounts of Delta-V.    
 
-* **LKO** (Lower Kerbin Orbit): Any orbit in Kerbin within the 70km and 200km mark. Most operational maneuovres happen here.
+![Orbital Apoapsis and Periapsis][orbit-ap-and-pe]
+
+* **LKO** (Lower Kerbin Orbit): Any orbit in Kerbin within the 70km and 200km mark. Most operational manuevers happen here.
 
 * **Keostationary Orbit** (Kerbisynchronous Equatorial Orbit or KEO for short): The stationary orbit of Kerbin, very useful orbit for satellites.  
   A spacecraft on this orbit will appear stationary when viewed from the surface. Can be useful when establishing a wireless connection between the craft and a structure on the surface, but it also makes observation of a certain spot on the surface easy. To achieve this orbit, the craft must have:
@@ -40,9 +44,11 @@ I use exclusively the [CKAN][ckan-site] (Comprehensive Kerbal Archive Network) t
 
 * **Aerobraking**: Usage of a celestial body's atmosphere to reduce vessel entry speed, either through the use of parachutes or surfaces, by creating drag resistance.
 
-* **Rendezvous**: The design of a close encounter solution between two spearate celestial objects travelling at different orbits.
+* **Rendezvous**: The design of a close encounter solution between two separate celestial objects traveling at different orbits.
 
-* **Docking**: The set of manoeuvres required after a rendezvous to enable the attachment of separate vessels through specialized _Docking ports_ as to become a single craft.   
+* **Docking**: The set of maneuvers required after a rendezvous to enable the attachment of separate vessels through specialized _Docking ports_ as to become a single craft.   
+
+### General 
 
 #### Vessel Design
 Vessels can be classified according to function. Ship, Probe, Station, Booster, etc. Before designing a craft for a mission, refer to the [Delta-V map][delta-v-map] as to calculate how much Delta-V is required.
@@ -57,19 +63,20 @@ An interplanetary mission from Kerbin will typically use a three stage architect
 4. In case of landing on a remote celestial body, an additional lander stage _can_ be added in cooperation with the previous stage.
 
 The lander stage can be designed to have the **Delta-V** requirements for takeoff and landing on the remote celestial body only - using e.g. aerobraking to conserve fuel, in addition to landing gear for stability and touchdown dampening. 
-Many vessels use he style of e.g. Apollo separate Lander and Orbiter where upon reaching the body's orbit, they are separated. The Orbiter stage remains "parked" at an appropriate circular equatorial orbit and teh lander does the descent. Upon return, Rendezvous and Docking maneouvres are executed by the Lander as to reunite crew and any other objects/science/sample items. The reassembled craft makes its return to Kerbin.
+Many vessels use he style of e.g. Apollo separate Lander and Orbiter where upon reaching the body's orbit, they are separated. The Orbiter stage remains "parked" at an appropriate circular equatorial orbit and teh lander does the descent. Upon return, Rendezvous and Docking manoeuver are executed by the Lander as to reunite crew and any other objects/science/sample items. The reassembled craft makes its return to Kerbin.
 
-Some celestial bodies with very small **SOI** and low gravities don't even require a lander stage e.g. Minmus and Gilly. In the case of Gilly, not even landing gear is ncessary, as the vessel can reorient itself for takeoff using strong enough reaction wheels. 
+Some celestial bodies with very small **SOI** and low gravities don't even require a lander stage e.g. Minmus and Gilly. In the case of Gilly, not even landing gear is necessary, as the vessel can reorient itself for takeoff using strong enough reaction wheels. 
   
-### Vessel Launch (Gravity Turns)
+#### Vessel Launch (Gravity Turns)
 As shown by [Delta-V maps][delta-v-map], the estimated amount of Delta-V required by a vessel to reach a stable circular orbit around Kerbin at an altitude of 80km, stands at around 3400m/s (3431.03 m/s is the Escape Velocity).  
-Please note that Kerbin's upper atmosphere ends at 70km, after which it is considered "space" by KSP in this celestial body. Other celestial bodies with atmospheres (such as Duna) have different limits. Most interplanetary maneuvres are made 
+Please note that Kerbin's upper atmosphere ends at 70km, after which it is considered "space" by KSP in this celestial body. Other celestial bodies with atmospheres (such as Duna) have different limits. Most interplanetary maneuvers are made 
 at orbits around 80, 100 or 120km at the most. As lower orbits are faster, to take advantage of the Oberth effect, it is advised to launch from the lowest orbit possible for a given vessel's **TWR**(Trust To Weight Ratio).  
 
-To be able to efficently use the vessel's fuel in reaching orbit, a vessel maneouvre called **Gravity Turn** is performed that takes uses the celestial body's rotation to assist additional Delta-V to the launched craft.  
+To be able to efficiently use the vessel's fuel in reaching orbit, a vessel manoeuver called **Gravity Turn** is performed that takes uses the celestial body's rotation to assist additional Delta-V to the launched craft.  
 
-In summary, if a craft is launched following the celestial body rotation (East in the case of Kerbin, following the 90º line in the NavBall), the body provides additional mommentum, a slingshot effect that supplies Delta-V
-to the vessel, thus reducing total fuel consumption. Most booster designs and launch architectures are thought considering a properly executed Gravity Turn in mind - if ignored, there's a risk the vessel may not even reach orbit as most fuel will be consumed reaching the upper atmosphere. 
+In summary, if a craft is launched following the celestial body rotation (East in the case of Kerbin, following the 90º line in the NavBall), the body provides additional momentum, a slingshot effect that supplies Delta-V to the vessel, thus reducing total fuel consumption. Most booster designs and launch architectures are thought considering a properly executed Gravity Turn in mind - if ignored, there's a risk the vessel may not even reach orbit as most fuel will be consumed reaching the upper atmosphere. 
+
+![Orbit circularization][orbit-circularization]
 
 Obviously, we assume a craft with reasonable pitch/yaw/roll control on its lower stages is used and an acceptable degree of navigational stability. [Kerbal Engineer Redux][ker-mod] mod is recommended (use [CKAN][ckan-site]), so Orbital Periapsis and
 Periapsis can be quickly consulted at a glance.
@@ -91,17 +98,17 @@ The general steps for a Gravity Turn from an equatorial launch site (assuming fr
 5. Hold the vessel direction marker at 45º and let the prograde indicator drift away until time to Apoapsis is within 35 ~ 55s.  
    The aim at this point is to let the craft gain enough altitude to reach orbit. when Apoapsis is roughly a minute or so away, craft should be above the 30km mark
 
-6. Allow the vessel's diection marker to follow the prograde marker.
+6. Allow the vessel's direction marker to follow the prograde marker.
    It should eventually follow very closely to the 90º inclination.
 
 7. As soon as Apoapsis has reached desired orbit parking altitude (e.g. 80, 100 or 120km) cutoff throttle immediately. Allow vessel to coast.
 
-At this point, you have succesfully launched using a gravity turn. There should be plenty of time to Apoapsis, and enough fuel in the circularization stage to perform a prograde burn at Apoapsis to raise the flight path Periapsis to the same altitude, thus obtaining a circular orbit.
+At this point, you have successfully launched using a gravity turn. There should be plenty of time to Apoapsis, and enough fuel in the circularization stage to perform a prograde burn at Apoapsis to raise the flight path Periapsis to the same altitude, thus obtaining a circular orbit.
 
 The sames steps in a visual form can be seen here:
 ![Kerbin Gravity Turn][kerbin-gravity-turn]
 
-### Tools
+#### Tools
 * [Launch Window Planner][launch-planner]
 * [Interactive illustrated interplanetary guide and calculator for KSP][transfer-tool] 
 
@@ -112,3 +119,6 @@ The sames steps in a visual form can be seen here:
 [ker-mod]: https://github.com/jrbudda/KerbalEngineer
 [transfer-tool]: https://ksp.olex.biz/
 [launch-planner]: https://alexmoon.github.io/ksp/
+[reyabreu-flag]: images/Flags/reyabreu-flag.png
+[orbit-circularization]: images/orbit-circularization-lko.png
+[orbit-ap-and-pe]: images/orbit-ap-and-pe.png
