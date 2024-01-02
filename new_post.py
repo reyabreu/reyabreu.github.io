@@ -4,23 +4,23 @@ from datetime import datetime
 
 TEMPLATE = """\
 ---
-layout:     post
-title:      {0}
-date:       {1}
-tags:       {2}
+layout: post
+title: {0}
+date: {1}
+tags: {2}
 ---
 
 """
 
 if __name__ == "__main__":
 
-    title = input("Title:\n")
-    categories = input("Categories:\n")
+    title = input("Title: ")
+    categories = input("Categories: ")
 
     timestamp = datetime.today().strftime("%Y-%m-%d %H:%M:%S")
     datestamp = datetime.today().strftime("%Y-%m-%d")
 
-    file_name = datestamp + "-" + "-".join(title.split(" ")) + ".md"
+    file_name = datestamp + "-" + "-".join(title.lower().split(" ")) + ".md"
 
-    with open(file_name, "w+") as file:
+    with open("_posts/" + file_name, "w+") as file:
         file.write(TEMPLATE.format(title, timestamp, categories))
