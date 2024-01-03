@@ -3,9 +3,12 @@
         "Apoapsis",
         "CKAN",
         "Kerbal",
+        "Kerbals",
         "Kerbin",
         "Minmus",
+        "monopropellant",
         "Oberth",
-        "Periapsis"
+        "Periapsis",
+        "prograde"
     ]
 }

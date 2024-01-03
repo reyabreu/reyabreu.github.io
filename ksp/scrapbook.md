@@ -1,4 +1,8 @@
-#### KSP Scrapbook
+---
+permalink: /ksp-scrapbook
+layout: default
+---
+# KSP Scrapbook
 ##### Thoughts and notes about Kerbal Space Program
 
 More than just a simulation game, KSP is a learning platform for Rocket Science, Orbital Mechanics and other scientific and engineering disciplines associated to flight and space exploration. It works on a simplified scaled down model of around 80% of our own solar system. Concepts in KSP are also used in the real world, and more concrete definitions and explanations can be found on aerospace agencies such as NASA or ESA.
@@ -7,12 +11,22 @@ Please note that all this material applies only to the latest versions of KSP. I
 
 This is the mission [Flag][reyabreu-flag] I use.
 
-#### Mods
+## Mods
 I use exclusively the [CKAN][ckan-site] (Comprehensive Kerbal Archive Network) tool to download and install mods. It will ensure compatibility between mods and with the latest KSP versions. 
 
-#### Glossary
+## Glossary
+* **Kerbin**: The planet where the home base of the game is established, much smaller yet very similar to Earth, having similar gravity, temperature and atmospheric composition and pressure, with a lower atmospheric boundary. It is mostly uninhabited except for a few sparsely placed Space Centres and launch sites.
+
+* **Kerbals**: the little green and comedic inhabitants of Kerbin, mostly there to provide immersion and motivation for the players, with very little backstory.
+
+* **KSC (Kerbin Space Centre)**: The initial AeroSpace Centre for mission design and control with facilities for Craft building, crew management and tracking amongst others.   
+
 * **ASL** (At Sea Level): In contrast to Vacuum, or Atmospheric. An indication of altitude/pressure where a given engine operation is relevant.
-  
+
+* **Command Module** (cockpit, command pod, or probe core): is any part that allow a player to control a vessel, either a crewed capsule or an un-staffed telemetry part.
+
+* **CommNet**: Relay and control communication system that can be enabled as a difficulty setting, and limits the operational range of antennae within the game. 
+
 * **Delta-V**: Change in speed (m/s) gained by a vessel through the conservation of momentum effect when it expels part of its mass - usually by burning fuel.
   The most important in-game currency, it is a function of current vessel's mass and gravity influences, amongst other parameters. More info [here][delta-v-guide].
 
@@ -25,7 +39,11 @@ I use exclusively the [CKAN][ckan-site] (Comprehensive Kerbal Archive Network) t
 
 * **Apoapsis (Ap)**: Farthest/Highest point in an orbit around a celestial body (lowest speed). If raised enough (and if travel direction is the same as rotation for the body), the speed will eventually match the rotational speed becoming stationary to an observer on the body. Higher values will eventually go beyond the body's SOI. 
 
-* **Periapsis (Pe)**: Closest/Lowest point in an orbit around a celestial body (highest speed). If the body has atmosphere, lower values may fall within it, provoking further deaccelartion through aerobraking. The Oberth manoeuver is optimal at the lowest Periapsis for a given body, as it will provide inordinate amounts of Delta-V.    
+* **Monopropellant**: Special kind of liquid fuel that does not require Oxidizer and is used for low power thrusters used in precision movements, such as the **RCS**. 
+
+* **Oxidizer**: In Rocketry, is a substance that when combined with liquid fuel (a _Reducing_ agent) in a _bipropellant_ engine chamber, produces a violent **_Redox_** combustion, releasing hugh volumes of gases at high pressure and temperature. These gases, when guided trough the engine's nozzle, generate an opposing force that propel the Rocket. The reaction can happen in the absence of surrounding Oxygen, therefore making it useful for space travel.    
+
+* **Periapsis (Pe)**: Closest/Lowest point in an orbit around a celestial body (highest speed). If the body has atmosphere, lower values may fall within it, provoking further deceleration through aerobraking. The Oberth manoeuver is optimal at the lowest Periapsis for a given body, as it will provide inordinate amounts of Delta-V.    
 
 ![Orbital Apoapsis and Periapsis][orbit-ap-and-pe]
 
@@ -39,6 +57,8 @@ I use exclusively the [CKAN][ckan-site] (Comprehensive Kerbal Archive Network) t
    Orbital Speed 1 009.81 m/s
    Orbital Period 1 Kerbin Sidereal Day (5h 59m 9.425s)
 ```
+* **SAS**: Stability Augmentation System, a form pf automated flight control assistance that allows for easier piloting of a vessel. When enabled (and depending of the capabilities of the chosen command module) it can adjust vessel flight inputs automatically, so the craft maintain a chosen attitude. 
+
 * **SOI** (Sphere of Influence): indicates the spherical space around a celestial body in which it has sole gravitational influence on a craft or any other object.
   The dev team chose to simplify effects to a single body at a given point for feasible in-game path calculations instead of n-body influence experienced in the real world. Even despite the exact solvability of all path equations, calculating them in-game gives unexpectedly changing and struggling trajectories.
 
@@ -48,9 +68,21 @@ I use exclusively the [CKAN][ckan-site] (Comprehensive Kerbal Archive Network) t
 
 * **Docking**: The set of maneuvers required after a rendezvous to enable the attachment of separate vessels through specialized _Docking ports_ as to become a single craft.   
 
-### General 
+## General Tips
+* The most important tool in KSP my appreciation is the maneuver node editor. Understand it correctly, and when and how to edit it for maximum manuever effectivity.
 
-#### Vessel Design
+* Although kind of unintuitive, remember that changes in speed do not make your vessel or craft transit faster at a given orbit; instead it changes the _geometry_ of the orbit, so you may find yourself at higher or lower speeds because the orbit has a different shape.
+
+* Burning at orbital special points is optimal. E.g. burning prograde at your Apoapsis is the most efficient way to raise Periapsis. Burning in Normal or Anti-Normal direction at either the orbit's Descending or Ascending Nodes is the most efficient way to change Orbital inclination.    
+
+* Travel to other celestial bodies requires planning and execution at appropriate times. The amount of Delta-V a vessel can carry is finite, so there are limits to the maximum range of your craft based on the efficiency and size of the design and how well maneuvers are executed. There are planning tools that allow you to determine the amount of Delta-v required for a given encounter at a specific orbit, so you can design a craft accordingly.  
+To find the best dates/time for planning your missions, please refer to the tools section linked below.
+
+* If enabling **CommNet**, Choosing the right type of communication device and antennas for space travel is also important, and there are tools for that. A **Pilot** in KSP is a role that can create/edit maneuver nodes, so if you lose communication with KSC and your vessel is not crewed by a Pilot, you may not be able to design a navigation solution with maneuver nodes, until Comms are reestablished (as in the case of traveling in the shadow of another celestial body between the craft and Kerbin). 
+
+* Besides a **Pilot**, the other roles are **Scientist**, which allows for certain experiment resets in Science Mode, and **Engineer** which is capable of fixing malfunctioning equipment with toolkits.
+
+## Vessel Design
 Vessels can be classified according to function. Ship, Probe, Station, Booster, etc. Before designing a craft for a mission, refer to the [Delta-V map][delta-v-map] as to calculate how much Delta-V is required.
 An interplanetary mission from Kerbin will typically use a three stage architecture: 
 
@@ -63,11 +95,44 @@ An interplanetary mission from Kerbin will typically use a three stage architect
 4. In case of landing on a remote celestial body, an additional lander stage _can_ be added in cooperation with the previous stage.
 
 The lander stage can be designed to have the **Delta-V** requirements for takeoff and landing on the remote celestial body only - using e.g. aerobraking to conserve fuel, in addition to landing gear for stability and touchdown dampening. 
-Many vessels use he style of e.g. Apollo separate Lander and Orbiter where upon reaching the body's orbit, they are separated. The Orbiter stage remains "parked" at an appropriate circular equatorial orbit and teh lander does the descent. Upon return, Rendezvous and Docking manoeuver are executed by the Lander as to reunite crew and any other objects/science/sample items. The reassembled craft makes its return to Kerbin.
+Many vessels use he style of e.g. Apollo separate Lander and Orbiter where upon reaching the body's orbit, they are separated. The Orbiter stage remains "parked" at an appropriate circular equatorial orbit and the lander does the descent. Upon return, Rendezvous and Docking manoeuver are executed by the Lander as to reunite crew and any other objects/science/sample items. The reassembled craft makes its return to Kerbin.
 
-Some celestial bodies with very small **SOI** and low gravities don't even require a lander stage e.g. Minmus and Gilly. In the case of Gilly, not even landing gear is necessary, as the vessel can reorient itself for takeoff using strong enough reaction wheels. 
+Some celestial bodies with very small **SOI** and low gravities don't even require a lander stage e.g. Minmus and Gilly. In the case of Gilly, not even landing gear is necessary, as the vessel can reorient itself for takeoff using strong enough reaction wheels.
+
+## Essential Vessel Checklist before launch
+* Verify the craft has a _root part_ (a **Command Module**, either a crewed capsule or an unguided telemetry part) so it can be flyable.
+
+* Does your **Command Module** have (and need) a Heat Shield? have you added the coupling parts for stage separation? have you added means for atmospheric stability (such as fins) in your lower stages?
+
+* Reduce weight (mass) as much as possible.  
+40 units of Ablator (on Heat Shield) is enough for a Kerbin Command Module reentry at 2500m/s. Maybe 3 times as much for higher speed re-entries at inclined orbit. 600 units is an overkill. Are you using single fuel engines, such as Nuclear? - then, no oxidizer is needed. Are you using **RCS**? if the answer is no, then no need to carry monopropellant.
+
+* Revise the Delta-V budget for different stages _ASL_ and in the _Vacuum_ of space.  
+Your lower booster stages should be able to provide at least 3400m/s **ASL** to get the craft into orbit. The remaining Delta-V should be estimated with the aid of a [map][delta-v-map], including the return trip. Add some 20% to the overall budget if you're inexperienced.
+
+* Unless you're an experienced Pilot, you may wish to add stability assisted control in the form of **SAS** to your craft for a more controlled flight.  
+Please note that SAS usually is provided by the addition of **Reaction Wheels** to your vessel's stages - higher torques for heavier parts. Most **Command Modules** provide an embedded reaction wheel that is capable of handling most last stages/landers mass, but won't be useful for heavy boosters or clustered engines.
+
+* Check your Communication capabilities. Select and add the correct antennae for your voyage, if having **CommNet** enabled.  
+This [Antennae Selector][comms-selector-file] is helpful.
+
+* If you have reaction wheels (included or not) and Antennae, its advisable to add a couple extra batteries to handle the excess electrical power drawn from these devices. Consider craft mass when adding batteries, and don't forget to add means to recharge them, e.g. Solar Panels.
+
+* If your craft or parts of it will perform Docking maneuvers in Vacuum, its advisable to add **RCS** thrusters. They come in different sizes with low to high power respectively, from 0.1kN up to 12kN. Choose the smallest possible for the vessel, remembering to balance thrusters around the craft's centre of mass. You may consider carrying extra monopropellant in additional tanks, besides the amount included in some **Command Modules**.  
+In addition, allow RCS to be used only for craft translation, by disabling the **Roll**, **Pitch** and **Yaw** control in the RCS thrusters setup (must have _Adjustable Tweakables_ enabled in the game settings), so these movements are provided by Reaction Wheels instead - no monopropellant required. 
+
+* I suggest always rotating so the Root Part's front face is directly opposite to the launch pad.  
+In other words, the whole assembly's back is facing towards the VAB door and towards the launch pad. By selecting the _Root Part_ and pressing **Q** or **E** on the keyboard, you can rotate the whole vessel assembly. This allows the 90º line on the Navball (East) to be facing down, allowing for key **W** to be used on _Gravity Turn_ launch corrections.
   
-#### Vessel Launch (Gravity Turns)
+* Check your staging! verify that parts are deployed correctly in expected sequence.
+
+* Check you have limited the thrusters **ASL** so the **TWR** for lower stages is between 1.33~1.35, to avoid excessive G-Forces.  
+
+* Are you launching in the right Transfer Window for the celestial body you plan to encounter? Use tools such as the [Launch Window Planner][launch-planner] and warp time to reach the appropriate date and time in KSC's Tracking Station before your launch.
+
+* Finally, verify your crew. Missions with separate docking parts may require more than one occupant, and ensure the role(s) is(are) appropriate for the chosen game style.
+
+## Vessel Launch (Gravity Turns)
 As shown by [Delta-V maps][delta-v-map], the estimated amount of Delta-V required by a vessel to reach a stable circular orbit around Kerbin at an altitude of 80km, stands at around 3400m/s (3431.03 m/s is the Escape Velocity).  
 Please note that Kerbin's upper atmosphere ends at 70km, after which it is considered "space" by KSP in this celestial body. Other celestial bodies with atmospheres (such as Duna) have different limits. Most interplanetary maneuvers are made 
 at orbits around 80, 100 or 120km at the most. As lower orbits are faster, to take advantage of the Oberth effect, it is advised to launch from the lowest orbit possible for a given vessel's **TWR**(Trust To Weight Ratio).  
@@ -81,7 +146,7 @@ In summary, if a craft is launched following the celestial body rotation (East i
 Obviously, we assume a craft with reasonable pitch/yaw/roll control on its lower stages is used and an acceptable degree of navigational stability. [Kerbal Engineer Redux][ker-mod] mod is recommended (use [CKAN][ckan-site]), so Orbital Periapsis and
 Periapsis can be quickly consulted at a glance.
 
-#### Steps
+### Steps
 The general steps for a Gravity Turn from an equatorial launch site (assuming from Kerbin's KSC) are as follows:
 
 1. Verify the **TWR** for the lower stages **ASL**(At Sea Level) is between 1.33 ~ 1.35  
@@ -108,7 +173,7 @@ At this point, you have successfully launched using a gravity turn. There should
 The sames steps in a visual form can be seen here:
 ![Kerbin Gravity Turn][kerbin-gravity-turn]
 
-#### Tools
+## Tools
 * [Launch Window Planner][launch-planner]
 * [Interactive illustrated interplanetary guide and calculator for KSP][transfer-tool] 
 
@@ -122,3 +187,4 @@ The sames steps in a visual form can be seen here:
 [reyabreu-flag]: images/Flags/reyabreu-flag.png
 [orbit-circularization]: images/orbit-circularization-lko.png
 [orbit-ap-and-pe]: images/orbit-ap-and-pe.png
+[comms-selector-file]: files/KSP%20CommNet%20Signal%20Strength%20Calculator%20%26%20Antenna%20Selector.xlsx
