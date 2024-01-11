@@ -136,4 +136,4 @@ The sames steps in a visual form can be seen here:
 [orbit-circularization]: images/orbit-circularization-lko.png
 [orbit-ap-and-pe]: images/orbit-ap-and-pe.png
 [comms-selector-file]: files/KSP%20CommNet%20Signal%20Strength%20Calculator%20%26%20Antenna%20Selector.xlsx
-[glossary][/ksp-glossary]
+[glossary]: /ksp-glossary
