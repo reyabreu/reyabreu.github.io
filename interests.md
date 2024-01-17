@@ -26,6 +26,10 @@ Directors like Tarantino, Nolan, Peele, Cuarón, Scott, Spielberg - but also "cl
 
 Can't deny I'm a Jazz/Rock Fusion enthusiast with a soft spot for Funk, Soul and groovy beats. [Steely Dan][steely-dan] is the soundtrack I go back to more often than not.  
 
+## Space and Undersea Exploration
+I have a lifelong fascination with exploration and new frontiers in any major knowledge discipline. As we are becoming more of an interplanetary species, Space exploration remains the unknown frontier, where the old desires and mythos of heroes and explorers can still be realized.
+I follow major Occidental Space agencies news and developments, including NASA, ESA, SpaceX and such.
+
 ## Video games
 
 * XCOM and XCOM2

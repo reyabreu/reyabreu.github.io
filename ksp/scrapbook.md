@@ -14,17 +14,18 @@ This is the mission [Flag][reyabreu-flag] I use.
 ## Mods
 I use exclusively the [CKAN][ckan-site] (Comprehensive Kerbal Archive Network) tool to download and install mods. It will ensure compatibility between mods and with the latest KSP versions. 
 
-[Glossary][glossary]
+## [Glossary][glossary]
 
 ## General Tips
 * The most important tool in KSP my appreciation is the maneuver node editor. Understand it correctly, and when and how to edit it for maximum manuever effectivity.
 
 * Although kind of unintuitive, remember that changes in speed do not make your vessel or craft transit faster at a given orbit; instead it changes the _geometry_ of the orbit, so you may find yourself at higher or lower speeds because the orbit has a different shape.
 
-* Burning at orbital special points is optimal. E.g. burning prograde at your Apoapsis is the most efficient way to raise Periapsis. Burning in Normal or Anti-Normal direction at either the orbit's Descending or Ascending Nodes is the most efficient way to change Orbital inclination.    
+* Burning at orbital special points is optimal. E.g. burning prograde at your Apoapsis is the most efficient way to raise Periapsis and vice-versa. Burning in Normal or Anti-Normal direction at either the orbit's Descending or Ascending Nodes is the most efficient way to change Orbital inclination.    
 
-* Travel to other celestial bodies requires planning and execution at appropriate times. The amount of Delta-V a vessel can carry is finite, so there are limits to the maximum range of your craft based on the efficiency and size of the design and how well maneuvers are executed. There are planning tools that allow you to determine the amount of Delta-v required for a given encounter at a specific orbit, so you can design a craft accordingly.  
-To find the best dates/time for planning your missions, please refer to the tools section linked below.
+* Travel to other celestial bodies requires planning and execution at precise times, because the amount of Delta-V a vessel can carry is finite. There are limits to the maximum range of your craft based on the efficiency and size of the design and how well maneuvers are executed at the right dates.  
+There are planning tools that allow you to determine the amount of Delta-v required for a given encounter to a celestial body at a specific orbit, so you can design a craft accordingly.  
+The most well known tool is the **Transfer Launch Planner** as part of the tools linked below. Use this to find the best dates/time for planning your missions.
 
 * If enabling **CommNet**, Choosing the right type of communication device and antennas for space travel is also important, and there are tools for that. A **Pilot** in KSP is a role that can create/edit maneuver nodes, so if you lose communication with KSC and your vessel is not crewed by a Pilot, you may not be able to design a navigation solution with maneuver nodes, until Comms are reestablished (as in the case of traveling in the shadow of another celestial body between the craft and Kerbin). 
 
