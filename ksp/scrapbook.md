@@ -5,7 +5,9 @@ layout: default
 # KSP Scrapbook
 ##### Thoughts and notes about Kerbal Space Program
 
-More than just a simulation game, KSP is a learning platform for Rocket Science, Orbital Mechanics and other scientific and engineering disciplines associated to flight and space exploration. It works on a simplified scaled down model of around 80% of our own solar system. Concepts in KSP are also used in the real world, and more concrete definitions and explanations can be found on aerospace agencies such as NASA or ESA.
+More than just a simulation game, KSP is a learning platform for Rocket Science, Orbital Mechanics and other scientific and engineering disciplines associated to flight and space exploration. It works on a simplified scaled down model of around 80% of our own solar system. Concepts in KSP are also used in the real world, and more concrete definitions and explanations can be found on aerospace agencies such as NASA or ESA.  
+
+If you have a desire for more "official" sources of knowledge as an intro to Rocketry or Celestial Mechanics [this](http://www.braeunig.us/space/) is a good place to start.  
 
 Please note that all this material applies only to the latest versions of KSP. I have not installed/played KSP2 up to this date, so even though I believe most information is applicable, I cannot vouch for it.
 
@@ -125,6 +127,9 @@ The sames steps in a visual form can be seen here:
 ## Tools
 * [Launch Window Planner][launch-planner]
 * [Interactive illustrated interplanetary guide and calculator for KSP][transfer-tool] 
+
+### Gratitude
+Many thanks to youtubers such as Mike Aben and Matt Lowne, as well as the community at /r/kerbalacademy and /r/kerbalspaceprogram for sharing much of the knowledge compiled here.
 
 [ckan-site]: https://forum.kerbalspaceprogram.com/topic/154922-ckan-the-comprehensive-kerbal-archive-network-v1280-dyson/
 [delta-v-map]: images/ksp1-delta-v-map-dark.jpg

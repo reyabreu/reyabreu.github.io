@@ -15,7 +15,9 @@ Assume that most terms and definitions explained here are used in **real** space
 
 ![Orbital Apoapsis and Periapsis][orbit-ap-and-pe]
 
-* **Ascending Node**: When two orbital planes of different inclination intersect each other, the points where both orbits intersect is called an Ascending (or a Descending Node). The name Ascending implies that the craft is traveling from below the intersection in a trajectory that takes it upwards above the node. Descending Node is the opposite, the craft trajectory takes it from above the node downwards under the node.    
+* **Ascending Node** (An): When two orbital planes of different inclination intersect each other, the points where both orbits intersect is called an Ascending (or a Descending Node - Dn). The name Ascending implies that the craft is traveling from below the intersection in a trajectory that takes it upwards above the node. Descending Node is the opposite, the craft trajectory takes it from above the node downwards under the node.    
+
+![Ascending and Descending Nodes][orbit-an-and-dn]
 
 * **ASL** (At Sea Level): In contrast to Vacuum, or Atmospheric. An indication of altitude/pressure where a given engine operation is relevant.
 
@@ -24,11 +26,14 @@ Assume that most terms and definitions explained here are used in **real** space
 * **CommNet**: Relay and control communication system that can be enabled as a difficulty setting, and limits the operational range of antennae within the game. 
 
 * **Delta-V**: Change in speed (m/s) gained by a vessel through the conservation of momentum effect when it expels part of its mass - usually by burning fuel.
-  The most important in-game currency, it is a function of current vessel's mass and gravity influences, amongst other parameters. More info [here][delta-v-guide].
+The most important in-game currency, it is a function of current vessel's mass and gravity influences, amongst other parameters.  
+More info [here][delta-v-guide].
+
+* **Descending Node** (Dn): See Ascending node (An)
 
 * **Docking**: The set of maneuvers required after a rendezvous to enable the attachment of separate vessels through specialized _Docking ports_ as to become a single craft.
 
-* **Escape Velocity**: Space Travel is mostly dependent of speed. This is the velocity at which a vessel will be able to leave a celestial body's atmosphere. In Kerbin it is 3431.03 m/s.
+* **Escape Velocity**: Space Travel is mostly dependent of speed. This is the velocity at which a vessel will be able to leave a celestial body's Sphere of Influence (SOI). In Kerbin it is 3431.03 m/s. For the Earth it is 11.2 km/s or approximately 7 miles/s.
 
 * **Hohmann Orbital Transfer**:  Orbital maneuver used to transfer a craft between two orbits of different altitudes around a central body. Typical examples would be used for travel between LKO and the Moon, or to another Kerbol planet or asteroid. The maneuver typically involves burning at e.g. Periapsis as to elevate Apoapsis to its desired final value - after which a circularization burn may be attempted.  
 
@@ -80,4 +85,5 @@ In any binary combination of bodies (such as the Earth and the Moon) there are a
 [reyabreu-flag]: images/Flags/reyabreu-flag.png
 [orbit-circularization]: images/orbit-circularization-lko.png
 [orbit-ap-and-pe]: images/orbit-ap-and-pe.png
+[orbit-an-and-dn]: images/orbit-an-and-dn.png
 [comms-selector-file]: files/KSP%20CommNet%20Signal%20Strength%20Calculator%20%26%20Antenna%20Selector.xlsx
