@@ -124,6 +124,8 @@ At this point, you have successfully launched using a gravity turn. There should
 The sames steps in a visual form can be seen here:
 ![Kerbin Gravity Turn][kerbin-gravity-turn]
 
+[Booster Library](ksp/boosters.html)
+
 ## Tools
 * [Launch Window Planner][launch-planner]
 * [Interactive illustrated interplanetary guide and calculator for KSP][transfer-tool] 

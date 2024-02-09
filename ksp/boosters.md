@@ -1,6 +1,3 @@
----
-layout: default
----
 # How to create a Booster Library
 
 ## Context
