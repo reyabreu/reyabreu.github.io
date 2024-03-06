@@ -67,13 +67,13 @@ In any binary combination of bodies (such as the Earth and the Moon) there are a
 
 * **Rendezvous**: The design of a close encounter solution between two separate celestial objects traveling at different orbits.
 
-* **SAS**: Stability Augmentation System, a form pf automated flight control assistance that allows for easier piloting of a vessel. When enabled (and depending of the capabilities of the chosen command module) it can adjust vessel flight inputs automatically, so the craft maintain a chosen attitude. 
+* **SAS**: Stability Augmentation System, a form pf automated flight control assistance that allows for easier piloting of a vessel. When enabled (and depending of the capabilities of the chosen command module) it can adjust vessel flight inputs automatically, so the craft maintains a chosen attitude. 
 
 * **SOI** (Sphere of Influence): indicates the spherical space around a celestial body in which it has sole gravitational influence on a craft or any other object.
   The dev team chose to simplify effects to a single body at a given point for feasible in-game path calculations instead of n-body influence experienced in the real world. Even despite the exact solvability of all path equations, calculating them in-game gives unexpectedly changing and struggling trajectories.
 
-* **TWR** (Trust To Weight Ratio): An indication of the power of a craft's engines in relation to its own weight. It changes in relation to altitude/pressure conditions.
-  For Kerbin's launch stages, a targeted TWR of 1.33 to 1.5 is desirable to avoid excessive G-Forces.
+* **TWR** (Trust To Weight Ratio): An indication of the power of a craft's engines in relation to the total vessel's weight. It defines how fast will a craft gather flight speed, requiring a value greater than 1.0 for the ship to even take off from a launch platform. It changes dynamically in relation to altitude/pressure conditions as engine performance varies in function of these.  
+For Kerbin's launch stages, a targeted TWR of 1.33 to 1.5 is desirable to avoid excessive G-Forces.
 
 [ckan-site]: https://forum.kerbalspaceprogram.com/topic/154922-ckan-the-comprehensive-kerbal-archive-network-v1280-dyson/
 [delta-v-map]: images/ksp1-delta-v-map-dark.jpg

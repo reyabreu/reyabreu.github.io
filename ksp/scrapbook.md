@@ -33,22 +33,7 @@ The most well known tool is the **Transfer Launch Planner** as part of the tools
 
 * Besides a **Pilot**, the other roles are **Scientist**, which allows for certain experiment resets in Science Mode, and **Engineer** which is capable of fixing malfunctioning equipment with toolkits.
 
-## Vessel Design
-Vessels can be classified according to function. Ship, Probe, Station, Booster, etc. Before designing a craft for a mission, refer to the [Delta-V map][delta-v-map] as to calculate how much Delta-V is required.
-An interplanetary mission from Kerbin will typically use a three stage architecture: 
-
-1. Booster (or launch) stage with high Thrust **ASL** engines. These engines usually have abysmal **ISP**, specially in Vacuum. Aim for providing the ~ 3000m/s required to reach space.
-
-2. Circularization stage with enough Delta-V to circularize at **LKO**. Consider a strategy to dispose of used stages, either by remote guidance telemetry or retrograde burns to deorbit - as to avoid orbital debris.
-
-3. Interplanetary travel stage, using a high Vacuum ISP that will allow to reach to and from desired celestial body orbits.
-
-4. In case of landing on a remote celestial body, an additional lander stage _can_ be added in cooperation with the previous stage.
-
-The lander stage can be designed to have the **Delta-V** requirements for takeoff and landing on the remote celestial body only - using e.g. aerobraking to conserve fuel, in addition to landing gear for stability and touchdown dampening. 
-Many vessels use he style of e.g. Apollo separate Lander and Orbiter where upon reaching the body's orbit, they are separated. The Orbiter stage remains "parked" at an appropriate circular equatorial orbit and the lander does the descent. Upon return, Rendezvous and Docking manoeuver are executed by the Lander as to reunite crew and any other objects/science/sample items. The reassembled craft makes its return to Kerbin.
-
-Some celestial bodies with very small **SOI** and low gravities don't even require a lander stage e.g. Minmus and Gilly. In the case of Gilly, not even landing gear is necessary, as the vessel can reorient itself for takeoff using strong enough reaction wheels.
+## [Vessel Design][vessel-design]
 
 ## Essential Vessel Checklist before launch
 * Verify the craft has a _root part_ (a **Command Module**, either a crewed capsule or an unguided telemetry part) so it can be flyable.
@@ -83,48 +68,9 @@ In other words, the whole assembly's back is facing towards the VAB door and tow
 
 * Finally, verify your crew. Missions with separate docking parts may require more than one occupant, and ensure the role(s) is(are) appropriate for the chosen game style.
 
-## Vessel Launch (Gravity Turns)
-As shown by [Delta-V maps][delta-v-map], the estimated amount of Delta-V required by a vessel to reach a stable circular orbit around Kerbin at an altitude of 80km, stands at around 3400m/s (3431.03 m/s is the Escape Velocity).  
-Please note that Kerbin's upper atmosphere ends at 70km, after which it is considered "space" by KSP in this celestial body. Other celestial bodies with atmospheres (such as Duna) have different limits. Most interplanetary maneuvers are made 
-at orbits around 80, 100 or 120km at the most. As lower orbits are faster, to take advantage of the Oberth effect, it is advised to launch from the lowest orbit possible for a given vessel's **TWR**(Trust To Weight Ratio).  
+## [Gravity Turn Launches][gravity-turns]
 
-To be able to efficiently use the vessel's fuel in reaching orbit, a vessel manoeuver called **Gravity Turn** is performed that takes uses the celestial body's rotation to assist additional Delta-V to the launched craft.  
-
-In summary, if a craft is launched following the celestial body rotation (East in the case of Kerbin, following the 90º line in the NavBall), the body provides additional momentum, a slingshot effect that supplies Delta-V to the vessel, thus reducing total fuel consumption. Most booster designs and launch architectures are thought considering a properly executed Gravity Turn in mind - if ignored, there's a risk the vessel may not even reach orbit as most fuel will be consumed reaching the upper atmosphere. 
-
-![Orbit circularization][orbit-circularization]
-
-Obviously, we assume a craft with reasonable pitch/yaw/roll control on its lower stages is used and an acceptable degree of navigational stability. [Kerbal Engineer Redux][ker-mod] mod is recommended (use [CKAN][ckan-site]), so Orbital Periapsis and
-Periapsis can be quickly consulted at a glance.
-
-### Steps
-The general steps for a Gravity Turn from an equatorial launch site (assuming from Kerbin's KSC) are as follows:
-
-1. Verify the **TWR** for the lower stages **ASL**(At Sea Level) is between 1.33 ~ 1.35  
-   Higher values make G-Forces so high, your Kerbals will pass out during launch - lower values will make the ship take too long to achieve escape velocity. Tune the lower stage engines Thrust Limiters to get within this range 
-
-2. Launch prograde at full throttle, aiming straight up
-
-3. When craft has reached a considerable Vertical Speed (**vy**), at roughly 100m/s, start turning East, following the 90º line in the NavBall.
-   Aim for a 2º inclination at around ~ 1000m of altitude
-
-4. Continue with gentle, but steady inclination input changes making the prograde indicator border chase the vessel direction marker.  
-   Aim for a 45º orientation at 10km of altitude (half way through the blue part of the NavBall)
-
-5. Hold the vessel direction marker at 45º and let the prograde indicator drift away until time to Apoapsis is within 35 ~ 55s.  
-   The aim at this point is to let the craft gain enough altitude to reach orbit. when Apoapsis is roughly a minute or so away, craft should be above the 30km mark
-
-6. Allow the vessel's direction marker to follow the prograde marker.
-   It should eventually follow very closely to the 90º inclination.
-
-7. As soon as Apoapsis has reached desired orbit parking altitude (e.g. 80, 100 or 120km) cutoff throttle immediately. Allow vessel to coast.
-
-At this point, you have successfully launched using a gravity turn. There should be plenty of time to Apoapsis, and enough fuel in the circularization stage to perform a prograde burn at Apoapsis to raise the flight path Periapsis to the same altitude, thus obtaining a circular orbit.
-
-The sames steps in a visual form can be seen here:
-![Kerbin Gravity Turn][kerbin-gravity-turn]
-
-[Booster Library](ksp/boosters.html)
+## [Booster Library](ksp/boosters.html)
 
 ## Tools
 * [Launch Window Planner][launch-planner]
@@ -145,3 +91,5 @@ Many thanks to youtubers such as Mike Aben and Matt Lowne, as well as the commun
 [orbit-ap-and-pe]: images/orbit-ap-and-pe.png
 [comms-selector-file]: files/KSP%20CommNet%20Signal%20Strength%20Calculator%20%26%20Antenna%20Selector.xlsx
 [glossary]: /ksp-glossary
+[gravity-turns]: /gravity-turns
+[vessel-design]: /vessel-design
